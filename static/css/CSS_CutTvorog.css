@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+
+    min-height: 100vh;
+    flex-direction: column;
+    background: #040d15;
+}
+#score
+{
+    top:6vw;
+    position:absolute;
+    left:3vw;
+    color:white;
+}
+#element{
+    position:absolute;
+}
+.button,
+button:active,
+button:focus
+{
+    outline: none;
+    top: 5vh;
+    position: relative;
+    padding: 15px 59px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    align-items: center;
+    background: linear-gradient(60deg, #0162c8, #ff72c0);
+}
+#voloses1 {
+    position: absolute;
+    align-items: center;
+    top: 6vh;
+    left: 35vw;
+    transform: scale(-1, 1);
+}
+#voloses2 {
+    position: absolute;
+    align-items: center;
+    top: 6vh;
+    transform: scale(-1, 1);
+}
+#face{
+    position: absolute;
+    align-items: center;
+    top: 10vh;
+    transform: scale(-1,1);
+}
+/*.extibutton{
+    display: inline-block;
+}*/
+.cutvolos{
+    width: 38vw;
+}
