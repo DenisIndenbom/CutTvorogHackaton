@@ -1,2 +1,2 @@
 # CutTvorogHakaton
-It's hakaton 2020 goto 
+It's hakaton 2020 GoTO
